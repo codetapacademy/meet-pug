@@ -1,0 +1,24 @@
+-
+  var codetapData = {
+    title: 'CodeTap',
+    slogan1: 'Code is currency'
+  }
+  var authenticated = false
+
+#codetap
+  if codetapData.slogan
+    h1 CodeTap info
+    p.slogan= codetapData.slogan
+  else if authenticated
+    h1 Welcome back to CodeTap
+    p.slogan.
+      Build websites and get paid well
+      With or without any knowledge of coding
+  else
+    h1 You should connect with us
+    p.slogan Happy Hacking
+
+  unless authenticated
+    p this is unless
+  if !authenticated
+    p this is unless
