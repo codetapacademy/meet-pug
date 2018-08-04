@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title include other static files
+    style
+      include style.css
+  body
+    h1 PUG is ultra awesome
+
+    include:markdown-it ../../README.md
+    
+    script
+      include script.js
