@@ -1,0 +1,13 @@
+mixin ultra-fun(itemList)
+  ul
+    each item in itemList
+      li= item
+
+mixin fun
+  div I'm having fun!
+  div Are you havign fun too?
+
++ultra-fun(['one', 'two', 'three'])
++fun
+hr
++fun
